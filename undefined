@@ -1,0 +1,142 @@
+<div class="card">
+							<img src="img/boris.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title text-center my-0">Boris</h5>
+								<p class="card-text">¡Hola! Soy Boris, un bello e inteligente can de raza única, me
+									gusta mucho cuidar a mis humanos, soy muy sano, tengo todas mis vacunas y además soy
+									súper educado. Mis humanos actuales se van a cambiar de casa y no puedo irme con
+									ellos, ¡así que espero que tú quieras a un compañero de por vida que te será siempre
+									fiel y te querrá como a nadie en el mundo!</p>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+									¡Adoptar!
+								</button>
+
+
+							</div>
+						</div>
+					</div>
+					<div class="col col-sm-6 col-md-4 mb-4">
+						<div class="card">
+							<img src="img/rocket.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title text-center my-0">Rocket</h5>
+								<p class="card-text">¡Saludos! Me llamo Rocket, y me rescataron de una tienda
+									clandestina de mascotas, a pesar de mi nombre soy un buen y divertido compañero, me
+									encanta la crema de cacahuate pero no me gusta tomar lo que no es mío, porque soy
+									muy bien portado, ¡si tienes un lugar para un compañero fuera de lo normal yo soy el
+									indicado!</p>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn " data-toggle="modal" data-target="#exampleModal">
+									¡Adoptar!
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+									aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="exampleModalLabel">Formulario de adopcion
+												</h5>
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body py-0">
+												<form class="modalForm" id="validation">
+													<div class="form-row">
+														<div class="col-md-12 ">
+															<label for="validationDefault01">Nombre del
+																adoptante</label>
+															<input type="text" class="form-control"
+																placeholder="Escribe tu nombre completo" id="pet-breed"
+																required autocomplete="off">
+														</div>
+														<div class="col-md-12 ">
+															<label for="validationDefault02">Direccion</label>
+															<input type="text" class="form-control"
+																placeholder="Escribe tu direccion" id="pet-name"
+																required autocomplete="off">
+														</div>
+														<div class="col-md-12">
+															<label for="validationDefault03">Telefono</label>
+															<input class="form-control" rows="3"
+																placeholder="Escribe tu Telefono" id="pet-age" required>
+														</div>
+														<div class="col-md-12 ">
+															<label for="validationDefault02">ID de la mascota</label>
+															<input type="text" class="form-control" placeholder="ID"
+																id="pet-name" required autocomplete="off">
+														</div>
+													</div>
+
+
+													<!-- 	<div class="form-group">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required autocomplete="off">
+									<label class="form-check-label" for="invalidCheck2">
+										Agree to terms and conditions
+									</label>
+								</div>
+							</div> -->
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary"
+															data-dismiss="modal">Close</button>
+														<button type="submit" id="submit-button" class="btn ">Save
+															changes</button>
+													</div>
+												</form>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<!-- termina modal -->
+							</div>
+						</div>
+					</div>
+					<div class="col col-sm-6 col-md-4 mb-4">
+						<div class="card">
+							<img src="img/midnight.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title text-center my-0">Midnight</h5>
+
+								<p class="card-text">Yo soy Midnight, y dicen que cuando nací el Sol y la Luna se amaban
+									mucho, y por eso tengo un poquito de ambos en mi pelaje. Como verás soy toda una
+									pensadora, y siempre tendré un buen consejo para tí, solo falta que sepas
+									escucharme, pero puedes tener por seguro que siempre estaré a tu lado</p>
+								<a href="#" class="btn">¡Adoptar!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col col-sm-6 col-md-4 mb-4">
+						<div class="card">
+							<img src="img/tony.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title text-center my-0">Tony</h5>
+								<p class="card-text">¡Hola! Yo soy Tony, y vengo de una familia de muchos hermanitos, mi
+									mamá fue encontrada por unos agradables humanos y ahora nos estan buscando hogar a
+									todos. Si quieres ser parte de mi familia y enseñarme lo bonita que es la vida ¡sólo
+									dilo y te acompañare durante mis 7 vidas!</p>
+								<a href="#" class="btn ">¡Adoptar!</a>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+                    <!-- 	<div class="form-group">
+<div class="form-check">
+	<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required autocomplete="off">
+	<label class="form-check-label" for="invalidCheck2">
+		Agree to terms and conditions
+	</label>
+</div>
+</div> -->

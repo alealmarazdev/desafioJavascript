@@ -1,0 +1,55 @@
+<div class="container">
+	<form id="adoptform">
+		<div class="form-row">
+			<div class="col-md-12 ">
+				<label for="validationDefault01">Imagen de la mascota</label>
+				<input type="text" class="form-control" placeholder="URL de la imagen" id="pet-url" required
+					autocomplete="off">
+			</div>
+			<div class="col-md-12 ">
+				<label for="validationDefault02">Nombre</label>
+				<input type="text" class="form-control" placeholder="Nombre" id="pet-name" required autocomplete="off">
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="col-md-12">
+				<label for="validationDefault03">Descripcion</label>
+				<textarea class="form-control" rows="3" placeholder="Descripcion" id="pet-description"
+					required></textarea>
+			</div>
+		</div>
+		<!-- 	<div class="form-group">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required autocomplete="off">
+						<label class="form-check-label" for="invalidCheck2">
+							Agree to terms and conditions
+						</label>
+					</div>
+				</div> -->
+
+		<!-- Button trigger modal -->
+		<button class="btn btn-primary" type="submit" id="submit-button">Submit form</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-info" id="exampleModalLongTitle">¡Enhorabuena!</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body text-success">
+						Su registro ha sido guardado exiosamente.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>

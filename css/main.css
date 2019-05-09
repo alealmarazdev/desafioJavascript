@@ -2,17 +2,125 @@
   font-family: "Kalam", cursive;
 }
 
+h6 {
+  color: #70df02;
+  font-size: 18px;
+}
+
 .carousel .carousel-caption {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 10px;
+}
 .card .card-body {
   min-height: 395px;
   flex-direction: column;
   justify-content: space-between;
   display: flex;
   flex-wrap: nowrap;
+}
+
+.title h2 {
+  font-size: 50px;
+  line-height: 1.4;
+  font-family: "Playfair Display";
+  color: lightgreen;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.principalbg {
+  background: url("../img/bg.jpg") no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.formAgrePet {
+  background: url("../img/bg.jpg") no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgregAdopt {
+  background: url("../img/bg1.jpg") no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.modal-body {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.modal-body form.modalForm {
+  width: 100%;
+  height: auto;
+  background-color: rgba(25, 24, 24, 0.349);
+  color: #333;
+  display: block;
+  border: 1px solid #333;
+  font-size: 20px;
+}
+
+form {
+  background-color: rgba(25, 24, 24, 0.89);
+  width: 40%;
+  margin: 2em 8em;
+  display: block;
+  padding: 20px;
+  border: 1px solid #333;
+  box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  font-size: 20px;
+  float: right;
+  color: #ccc;
+}
+form .btn {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  color: whitesmoke;
+  border-radius: 0;
+  text-align: center;
+  padding-top: 7px;
+  background: #07c7ff;
+}
+
+.card-body .btn {
+  background: #07c7ff;
+  border-radius: 0;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+footer .copyright {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: #fff;
+  font-style: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
