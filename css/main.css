@@ -2,14 +2,36 @@
   font-family: "Kalam", cursive;
 }
 
+.logoimage {
+  width: 200px;
+}
+
+h4 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+h5 {
+  color: black;
+}
+
 h6 {
-  color: #70df02;
-  font-size: 18px;
+  color: #f4ae40;
+  font-size: 20px;
+}
+
+nav {
+  position: fixed;
+  background: brown;
 }
 
 .carousel .carousel-caption {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
+}
+.carousel img {
+  height: 80vh;
 }
 
 body {
@@ -32,7 +54,7 @@ body {
   font-size: 50px;
   line-height: 1.4;
   font-family: "Playfair Display";
-  color: lightgreen;
+  color: #f4ae40;
   margin-bottom: 15px;
   margin-top: 0;
 }
@@ -97,11 +119,11 @@ form .btn {
   border-radius: 0;
   text-align: center;
   padding-top: 7px;
-  background: #07c7ff;
+  background: #f4ae40;
 }
 
 .card-body .btn {
-  background: #07c7ff;
+  background: #f4ae40;
   border-radius: 0;
 }
 

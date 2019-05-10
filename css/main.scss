@@ -4,9 +4,29 @@ $kalam: 'Kalam', cursive;
 	font-family:$kalam;
 }
 
+.logoimage{
+	width: 200px;
+}
+h4{
+ color: whitesmoke;
+ font-size: 20px;
+ font-weight: bolder;
+}
+
+h5{
+	color: black;
+	
+}
+
 h6{
- color: rgb(112, 223, 2);
- font-size: 18px
+	color:rgba(244, 174, 64, 1);
+	font-size: 20px;
+}
+
+
+nav {
+	position: fixed;
+	background: brown;
 }
 
 .carousel{
@@ -14,14 +34,19 @@ h6{
 	    background: rgba(255,255,255,.5);
 	    border-radius: 10px;
 	}
+	img{
+		height: 80vh;
+	}
 
 }
 
 body{
 	display: flex;
-   
-    flex-direction: column;
+	
+	flex-direction: column;
+	
 }
+
 
 .card{
 	border-radius: 10px;
@@ -42,7 +67,7 @@ body{
 	font-size: 50px;
   line-height: 1.4;
   font-family: "Playfair Display";
-  color:lightgreen;
+  color:rgba(244, 174, 64, 1);
   margin-bottom: 15px;
   margin-top: 0;
 }
@@ -110,15 +135,17 @@ form{
 		border-radius:0;
 		text-align: center;
         padding-top:7px;
-		background: #07c7ff;
+		background: rgba(244, 174, 64, 1);
 	}
 	
 }
 
-
+// .brownbtn{
+// 	background: #8e393d;
+// }
 
 .card-body .btn{
-	background: #07c7ff;
+	background: rgba(244, 174, 64, 1);
 	border-radius:0;
 }
 label{

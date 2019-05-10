@@ -89,10 +89,24 @@ $("#loadReg").click(()=>{
   $(".content-wrapper").load("views/registroadopt.html")
 })
 
+// const saluda;
+// function despide() {
+//   console.log('adios')
+// }
+
+// saluda();
+// despide();
+
+// saluda = () => {
+//   console.log('hola')
+// };
 
 
-const addAdoptEvent=()=> { $("#adoptform").submit((event)=>{
-   console.log("validaction");
+
+
+const addAdoptEvent = () => {
+  $("#adoptform").submit((event)=>{
+    console.log("validaction");
    event.preventDefault();
    event.stopPropagation();
   let url = $("#pet-url").val();
@@ -171,8 +185,10 @@ function printData(dataToPrint) {
     console.log(`key ${key}, value ${value}, name ${value.name}, url: ${value.url}, 
     description: ${value.description}`)
     if( value.owner){
-      console.log(value.owner);
+      console.log(value.owner, value.owner.oname);
       withOwner.push({...value, key})
+      console.log(`key ${key}, value ${value}, name ${value.name}, url: ${value.url}, 
+    description: ${value.description} ey aqui debe ir el owner ${value.owner.oname}`)
     } else{
       
       noOwner.push({...value, key})
@@ -205,9 +221,12 @@ function printData(dataToPrint) {
               <img src="${value.url}" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center my-0">${value.name}</h5>
-                <p class="card-text">${value.description}</p>
-                <!-- Button trigger modal -->
-                
+                <p class="card-text">He sido adoptado por ${value.owner.oname}</p>
+                <p class="card-text">Ahora tengo una casita en ${value.owner.oadress}</p>
+                <p class="card-text">E incliso un telefono ${value.owner.otel}</p>                
+                <p class="card-text">${value.description} </p>
+              
+                <button type="button" class="btn modalbtn"  id="erase-button-${value.key}">
               </div>
             </div>
           </div>`
