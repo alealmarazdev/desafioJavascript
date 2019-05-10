@@ -226,7 +226,7 @@ function printData(dataToPrint) {
                 <p class="card-text">E incliso un telefono ${value.owner.otel}</p>                
                 <p class="card-text">${value.description} </p>
               
-                <button type="button" class="btn modalbtn"  id="erase-button-${value.key}">
+                
               </div>
             </div>
           </div>`
